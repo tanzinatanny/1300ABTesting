@@ -11,11 +11,15 @@ header {
 }
 
 .a-header{
+  font-family: fantasy;
+  font-size: large;
   color: olivedrab;
+
 }
 
 .cart-wrapper{
   justify-content: center;
+  background-color: pink;
 
 }
 
