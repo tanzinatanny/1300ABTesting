@@ -5,21 +5,39 @@ html body {
 
 header {
 	padding-left: 40px;
-	padding-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  
+}
+
+.a-header{
+  color: olivedrab;
+}
+
+.cart-wrapper{
+  justify-content: center;
+
 }
 
 .vendor-wrapper {
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
+  flex:1;
 }
 
 .vendor-photo {
+  flex:3;
 	max-width: 200px;
 	max-height: 150px;
 	padding-right: 20px;
 }
+
+.wrap-a{
+  display: inline;
+}
+
 
 .vendor-book-button {
 	font-size: 2em;
@@ -27,6 +45,10 @@ header {
 
 .content-pane {
   padding: 40px;
+}
+
+.content-a{
+  display:flex;
 }
 
 .fa-stack[data-count]:after{
